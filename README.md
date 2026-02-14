@@ -237,7 +237,7 @@ This course is structured progressively. Each chapter includes:
 </tr>
 
 <tr>
-<td align="center"><b>01</b></td>
+<td align="center"><b><a href="01-getting-started.md">01</a></b></td>
 <td><b>🏁 <a href="01-getting-started.md">Getting Started</a></b><br><i>Your Android Journey Begins</i></td>
 <td>
 • Developer mindset<br>
