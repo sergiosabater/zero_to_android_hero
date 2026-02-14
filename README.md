@@ -277,7 +277,7 @@ This course is structured progressively. Each chapter includes:
 • Loops & iteration<br>
 • Shopping list app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -288,7 +288,7 @@ This course is structured progressively. Each chapter includes:
 • Layouts & modifiers<br>
 • Business card app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -299,7 +299,7 @@ This course is structured progressively. Each chapter includes:
 • Colors & themes<br>
 • Tip calculator app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 </table>
@@ -326,7 +326,7 @@ This course is structured progressively. Each chapter includes:
 • User interaction<br>
 • Dice roller app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -337,7 +337,7 @@ This course is structured progressively. Each chapter includes:
 • Scrollable lists<br>
 • Affirmations app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -348,7 +348,7 @@ This course is structured progressively. Each chapter includes:
 • Passing data<br>
 • Cupcake order app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -359,7 +359,7 @@ This course is structured progressively. Each chapter includes:
 • CRUD operations<br>
 • Task manager app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -370,7 +370,7 @@ This course is structured progressively. Each chapter includes:
 • JSON parsing<br>
 • Weather app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -381,7 +381,7 @@ This course is structured progressively. Each chapter includes:
 • Coil library<br>
 • Photo gallery app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 </table>
@@ -408,7 +408,7 @@ This course is structured progressively. Each chapter includes:
 • Google Sign-In<br>
 • User profiles app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -419,7 +419,7 @@ This course is structured progressively. Each chapter includes:
 • Multi-user apps<br>
 • Chat app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -430,7 +430,7 @@ This course is structured progressively. Each chapter includes:
 • File storage<br>
 • Selfie app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -441,7 +441,7 @@ This course is structured progressively. Each chapter includes:
 • Firebase Cloud Messaging<br>
 • Reminder app
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -452,7 +452,7 @@ This course is structured progressively. Each chapter includes:
 • Test automation<br>
 • Robust apps
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -463,7 +463,7 @@ This course is structured progressively. Each chapter includes:
 • Store listing<br>
 • Your published app! 🎉
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 </table>
@@ -490,7 +490,7 @@ This course is structured progressively. Each chapter includes:
 • Search & filter<br>
 • Categories & tags
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -501,7 +501,7 @@ This course is structured progressively. Each chapter includes:
 • Playlists<br>
 • Notification controls
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -512,7 +512,7 @@ This course is structured progressively. Each chapter includes:
 • Shopping cart<br>
 • Payment integration
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -523,7 +523,7 @@ This course is structured progressively. Each chapter includes:
 • Dependency injection<br>
 • Scalable code
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -534,7 +534,7 @@ This course is structured progressively. Each chapter includes:
 • Play Store presence<br>
 • Developer resume
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 <tr>
@@ -545,7 +545,7 @@ This course is structured progressively. Each chapter includes:
 • Interview prep<br>
 • Freelancing tips
 </td>
-<td align="center">✅ Ready</td>
+<td align="center">⏳ In progress</td>
 </tr>
 
 </table>
