@@ -255,7 +255,8 @@ This course is structured progressively. Each chapter includes:
 • Create first project<br>
 • Run on emulator/device
 </td>
-<td align="center">⏳ In progress</td>
+<td align="center">✅ Ready</td>
+</tr>
 </tr>
 
 <tr>
@@ -266,7 +267,8 @@ This course is structured progressively. Each chapter includes:
 • Functions & logic<br>
 • Simple calculator app
 </td>
-<td align="center">⏳ In progress</td>
+<td align="center">✅ Ready</td>
+</tr>
 </tr>
 
 <tr>
