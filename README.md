@@ -248,8 +248,8 @@ This course is structured progressively. Each chapter includes:
 </tr>
 
 <tr>
-<td align="center"><b><a href="01-getting-started.md">02</a></b></td>
-<td><b>🛠️ Development Setup</b><br><i>Android Studio & Emulator</i></td>
+<td align="center"><b><a href="02-development-setup.md">02</a></b></td>
+<td><b>🛠️ <a href="02-development-setup.md">Development Setup</a></b><br><i>Android Studio & Emulator</i></td>
 <td>
 • Install Android Studio<br>
 • Create first project<br>
