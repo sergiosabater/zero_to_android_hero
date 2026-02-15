@@ -248,7 +248,7 @@ This course is structured progressively. Each chapter includes:
 </tr>
 
 <tr>
-<td align="center"><b>02</b></td>
+<td align="center"><b><a href="01-getting-started.md">02</a></b></td>
 <td><b>🛠️ Development Setup</b><br><i>Android Studio & Emulator</i></td>
 <td>
 • Install Android Studio<br>
