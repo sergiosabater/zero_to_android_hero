@@ -259,8 +259,8 @@ This course is structured progressively. Each chapter includes:
 </tr>
 
 <tr>
-<td align="center"><b>03</b></td>
-<td><b>🎨 Kotlin Basics</b><br><i>Your First Programming Language</i></td>
+<td align="center"><b><a href=""03-kotlin-basics.md">03</a></b></td>
+<td><b>🎨 <a href="03-kotlin-basics.md">Kotlin Basics</a></b><br><i>Your First Programming Language</i></td>
 <td>
 • Variables & data types<br>
 • Functions & logic<br>
