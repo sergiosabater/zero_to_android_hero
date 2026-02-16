@@ -279,7 +279,7 @@ This course is structured progressively. Each chapter includes:
 • Loops & iteration<br>
 • Shopping list app
 </td>
-<td align="center">⏳ In progress</td>
+<td align="center">✅ Ready</td>
 </tr>
 
 <tr>
