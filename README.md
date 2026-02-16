@@ -290,7 +290,7 @@ This course is structured progressively. Each chapter includes:
 • Layouts & modifiers<br>
 • Business card app
 </td>
-<td align="center">⏳ In progress</td>
+<td align="center">✅ Ready</td>
 </tr>
 
 <tr>
