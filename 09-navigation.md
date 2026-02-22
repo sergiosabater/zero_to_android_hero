@@ -1,18 +1,4 @@
-<div align="center">
 
-# 🧭 Chapter 09 · Navigation
-
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpack-compose&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Level](https://img.shields.io/badge/Level-Intermediate-orange?style=for-the-badge)
-
-### *Multi-Screen Apps*
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500">
-
-</div>
-
----
 
 
 By the end of this chapter, you will be able to:
