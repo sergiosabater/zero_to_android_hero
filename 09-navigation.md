@@ -116,36 +116,6 @@ userId = 123
 </td>
 <td width="50%" bgcolor="#e3f2fd" valign="top">
 
-### 📱 Real-World Examples:
-
-**E-commerce:**
-```
-Products → Details → Cart → Checkout → Confirmation
-```
-
-**Social Media:**
-```
-Feed → Profile → Settings
-     → Post Details → Comments
-```
-
-**Banking:**
-```
-Accounts → Transactions → Transfer → Confirm
-```
-
-**Food Delivery:**
-```
-Restaurants → Menu → Cart → Checkout → Tracking
-```
-
-</td>
-</tr>
-</table>
-
----
-
-<br>
 
 ## 🗺️ Part 1 · Navigation Component Setup
 
