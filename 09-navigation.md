@@ -52,31 +52,6 @@ button properly
 </td>
 <td align="center" width="25%">
 
-🧁  
-**Cupcake Order**
-
-Multi-screen  
-ordering flow
-
-</td>
-</tr>
-</table>
-
-<br>
-
-> [!IMPORTANT]
-> **Navigation is what makes an app feel like an app.**  
-> Login → Home → Profile → Settings  
-> Cart → Checkout → Confirmation  
-> **This chapter unlocks real-world app architecture.**
-
----
-
-<br>
-
-## 🌟 Understanding Navigation
-
-<div align="center">
 
 ### *The Flow Between Screens*
 
