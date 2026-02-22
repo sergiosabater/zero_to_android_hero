@@ -14,21 +14,6 @@
 
 ---
 
-> [!NOTE]
-> *"A single screen is a page. Multiple screens connected by navigation? That's an app."*
-
-<div align="center">
-
-[![Back to Chapter 08](https://img.shields.io/badge/🔙-Chapter_08-blue?style=flat-square)](./08-lists-grids.md)
-[![Next Chapter](https://img.shields.io/badge/Chapter_10-🔜-green?style=flat-square)](./10-data-persistence.md)
-
-</div>
-
-<br>
-
-## 🎯 What We're Learning Today
-
-<div align="center">
 
 By the end of this chapter, you will be able to:
 
