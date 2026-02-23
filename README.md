@@ -1,37 +1,4 @@
-<div align="center">
 
-# 📱 Zero to Android Hero
-
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-Beginner_to_Intermediate-orange?style=for-the-badge)
-
-### *From Zero to Publishing Your First App on Google Play*
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBkZHcyYzR6MnR5YzR6MnR5YzR6MnR5YzR6MnR5YzR6MnR5YzQmZXA9djFfaW50ZXJuYWxfZ2lmX2J5X2lkJmN0PWc/xT0xeJpnrWC4XWblEk/giphy.gif" width="600">
-
-<br>
-
-**A comprehensive, hands-on journey from "What is Android?" to building real-world apps with Kotlin**
-
-<br>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)]()
-
-<br>
-
-[📱 Start Learning](#-roadmap--curriculum) • [🎯 Who Is This For?](#-who-is-this-course-for) • [🤝 Contributing](#-contributing) • [💬 Community](#-community--support)
-
-</div>
-
----
-
-<br>
-
-## 🌟 Why This Course?
 
 <br>
 
