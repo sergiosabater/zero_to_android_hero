@@ -1,39 +1,6 @@
 
 
 
-By the end of this chapter, you will be able to:
-
-</div>
-
-<br>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-🗺️  
-**NavController**
-
-Navigate between  
-screens
-
-</td>
-<td align="center" width="25%">
-
-📦  
-**Pass Data**
-
-Send information  
-between screens
-
-</td>
-<td align="center" width="25%">
-
-⬅️  
-**Back Stack**
-
-Handle back  
-button properly
 
 </td>
 <td align="center" width="25%">
