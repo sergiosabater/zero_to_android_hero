@@ -2,65 +2,7 @@
 
 
 
-<summary><b>🚀 Your First Multi-Screen App</b></summary>
 
-<br>
-
-```kotlin
-import androidx.compose.runtime.*
-import androidx.navigation.compose.*
-
-@Composable
-fun MyApp() {
-    // Create the navigation controller
-    val navController = rememberNavController()
-    
-    // Define the navigation graph
-    NavHost(
-        navController = navController,
-        startDestination = "home"  // Starting screen
-    ) {
-        // Screen 1: Home
-        composable("home") {
-            HomeScreen(
-                onNavigateToProfile = {
-                    navController.navigate("profile")
-                }
-            )
-        }
-        
-        // Screen 2: Profile
-        composable("profile") {
-            ProfileScreen(
-                onNavigateBack = {
-                    navController.popBackStack()
-                }
-            )
-        }
-    }
-}
-
-@Composable
-fun HomeScreen(onNavigateToProfile: () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        Text(
-            "Home Screen",
-            style = MaterialTheme.typography.headlineLarge
-        )
-        
-        Spacer(modifier = Modifier.height(16.dp))
-        
-        Button(onClick = onNavigateToProfile) {
-            Text("Go to Profile")
-        }
-    }
-}
 
 @Composable
 fun ProfileScreen(onNavigateBack: () -> Unit) {
