@@ -1,48 +1,7 @@
 
 
 
-</div>
 
----
-
-<br>
-
-### 📦 Add Dependencies
-
-<br>
-
-<details>
-<summary><b>🔧 Step 1: Add Navigation Library</b></summary>
-
-<br>
-
-Open `app/build.gradle.kts` and add:
-
-```kotlin
-dependencies {
-    // ... existing dependencies
-    
-    // Navigation Compose
-    implementation("androidx.navigation:navigation-compose:2.7.7")
-}
-```
-
-Sync your project (click "Sync Now" when prompted).
-
-> [!TIP]
-> Check [Maven Repository](https://mvnrepository.com/artifact/androidx.navigation/navigation-compose) for the latest version.
-
-</details>
-
----
-
-<br>
-
-### 🎯 Basic Navigation Setup
-
-<br>
-
-<details>
 <summary><b>🚀 Your First Multi-Screen App</b></summary>
 
 <br>
