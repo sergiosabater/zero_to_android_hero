@@ -4,41 +4,6 @@
 
 
 
-@Composable
-fun ProfileScreen(onNavigateBack: () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        Text(
-            "Profile Screen",
-            style = MaterialTheme.typography.headlineLarge
-        )
-        
-        Spacer(modifier = Modifier.height(16.dp))
-        
-        Button(onClick = onNavigateBack) {
-            Text("Go Back")
-        }
-    }
-}
-```
-
-**What's happening:**
-1. `rememberNavController()` — Creates the navigation controller
-2. `NavHost` — Container for all your screens
-3. `composable("route")` — Defines each screen
-4. `navController.navigate("route")` — Navigate to a screen
-5. `navController.popBackStack()` — Go back
-
-</details>
-
----
-
-<br>
 
 ## 📦 Part 2 · Passing Data Between Screens
 
