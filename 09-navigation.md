@@ -1,33 +1,5 @@
 
-```kotlin
-"home", "profile", "settings"
-```
 
-**Route** — The path to a destination
-```kotlin
-"profile/{userId}"
-```
-
-**Back Stack** — History of screens
-```kotlin
-Home → Profile → Settings
-         ← Back   ← Back
-```
-
-**Arguments** — Data passed between screens
-```kotlin
-userId = 123
-```
-
-</td>
-<td width="50%" bgcolor="#e3f2fd" valign="top">
-
-
-## 🗺️ Part 1 · Navigation Component Setup
-
-<div align="center">
-
-### *Setting Up Navigation in Compose*
 
 </div>
 
