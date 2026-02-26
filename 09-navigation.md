@@ -1,40 +1,5 @@
 
-Int, onNavigateBack: () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp)
-    ) {
-        Text(
-            "User Details",
-            style = MaterialTheme.typography.headlineMedium
-        )
-        
-        Spacer(modifier = Modifier.height(16.dp))
-        
-        Text("User ID: $userId")
-        
-        Spacer(modifier = Modifier.height(16.dp))
-        
-        Button(onClick = onNavigateBack) {
-            Text("Back to List")
-        }
-    }
-}
 
-data class User(val id: Int, val name: String)
-```
-
-**Argument types supported:**
-- `NavType.IntType` → Int
-- `NavType.LongType` → Long
-- `NavType.FloatType` → Float
-- `NavType.StringType` → String
-- `NavType.BoolType` → Boolean
-
-</details>
-
----
 
 <br>
 
