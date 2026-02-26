@@ -1,43 +1,4 @@
 
-
-
-
-
-
-
-## 📦 Part 2 · Passing Data Between Screens
-
-<div align="center">
-
-### *The Real Power of Navigation*
-
-Most apps need to pass data: user IDs, product details, order info.
-
-</div>
-
----
-
-<br>
-
-### 🎯 Method 1: Route Arguments
-
-<br>
-
-<details>
-<summary><b>🔗 Passing Data in the Route</b></summary>
-
-<br>
-
-```kotlin
-@Composable
-fun NavigationWithArguments() {
-    val navController = rememberNavController()
-    
-    NavHost(
-        navController = navController,
-        startDestination = "user_list"
-    ) {
-        // Screen 1: User List
         composable("user_list") {
             UserListScreen(
                 onUserClick = { userId ->
