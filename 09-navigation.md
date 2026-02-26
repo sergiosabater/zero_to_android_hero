@@ -1,35 +1,5 @@
 
-      
-@Composable
-fun UserListScreen(onUserClick: (Int) -> Unit) {
-    val users = listOf(
-        User(1, "Alice"),
-        User(2, "Bob"),
-        User(3, "Charlie")
-    )
-    
-    LazyColumn(
-        modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(16.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        items(users) { user ->
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                onClick = { onUserClick(user.id) }
-            ) {
-                Text(
-                    text = user.name,
-                    modifier = Modifier.padding(16.dp),
-                    style = MaterialTheme.typography.titleMedium
-                )
-            }
-        }
-    }
-}
-
-@Composable
-fun UserDetailScreen(userId: Int, onNavigateBack: () -> Unit) {
+Int, onNavigateBack: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
