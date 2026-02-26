@@ -1,33 +1,5 @@
 
-        composable("user_list") {
-            UserListScreen(
-                onUserClick = { userId ->
-                    // Navigate with argument in route
-                    navController.navigate("user_detail/$userId")
-                }
-            )
-        }
-        
-        // Screen 2: User Detail
-        composable(
-            route = "user_detail/{userId}",  // Define parameter
-            arguments = listOf(
-                navArgument("userId") {
-                    type = NavType.IntType  // Specify type
-                }
-            )
-        ) { backStackEntry ->
-            // Retrieve the argument
-            val userId = backStackEntry.arguments?.getInt("userId") ?: 0
-            
-            UserDetailScreen(
-                userId = userId,
-                onNavigateBack = { navController.popBackStack() }
-            )
-        }
-    }
-}
-
+      
 @Composable
 fun UserListScreen(onUserClick: (Int) -> Unit) {
     val users = listOf(
