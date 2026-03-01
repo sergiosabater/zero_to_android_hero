@@ -1,32 +1,4 @@
 
-
-```kotlin
-composable(
-    route = "product_detail/{productId}?category={category}",
-    arguments = listOf(
-        navArgument("productId") {
-            type = NavType.IntType
-        },
-        navArgument("category") {
-            type = NavType.StringType
-            defaultValue = "all"  // Optional with default
-            nullable = true
-        }
-    )
-) { backStackEntry ->
-    val productId = backStackEntry.arguments?.getInt("productId") ?: 0
-    val category = backStackEntry.arguments?.getString("category") ?: "all"
-    
-    ProductDetailScreen(productId, category)
-}
-
-// Navigate
-navController.navigate("product_detail/42")  // category = "all"
-navController.navigate("product_detail/42?category=electronics")  // specified
-```
-
-</details>
-
 ---
 
 <br>
