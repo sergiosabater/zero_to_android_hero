@@ -1,17 +1,5 @@
 
 
-
-<br>
-
-### 🎯 Method 2: Optional Arguments
-
-<br>
-
-<details>
-<summary><b>🔗 With Default Values</b></summary>
-
-<br>
-
 ```kotlin
 composable(
     route = "product_detail/{productId}?category={category}",
