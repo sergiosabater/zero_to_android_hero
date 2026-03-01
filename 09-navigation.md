@@ -1,31 +1,4 @@
 
-
-// Receiving screen
-composable(
-    route = "order_summary/{orderJson}",
-    arguments = listOf(
-        navArgument("orderJson") { type = NavType.StringType }
-    )
-) { backStackEntry ->
-    val encodedJson = backStackEntry.arguments?.getString("orderJson") ?: ""
-    val orderJson = URLDecoder.decode(encodedJson, StandardCharsets.UTF_8.toString())
-    val order = Json.decodeFromString<Order>(orderJson)
-    
-    OrderSummaryScreen(order)
-}
-```
-
-> [!WARNING]
-> For very large objects, consider using a ViewModel shared between screens instead.
-
-</details>
-
----
-
-<br>
-
-## ⬅️ Part 3 · Back Stack Management
-
 <br>
 
 <details>
