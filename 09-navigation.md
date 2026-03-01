@@ -1,40 +1,4 @@
 
----
-
-<br>
-
-### 🎯 Method 3: Complex Objects (Serialization)
-
-<br>
-
-<details>
-<summary><b>📦 Passing Custom Objects</b></summary>
-
-<br>
-
-For complex data, encode to JSON and pass as string:
-
-```kotlin
-import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
-import java.net.URLEncoder
-import java.net.URLDecoder
-import java.nio.charset.StandardCharsets
-
-@Serializable
-data class Order(
-    val id: Int,
-    val items: List<String>,
-    val total: Double
-)
-
-// Sending screen
-fun navigateToSummary(navController: NavController, order: Order) {
-    val orderJson = Json.encodeToString(order)
-    val encodedJson = URLEncoder.encode(orderJson, StandardCharsets.UTF_8.toString())
-    navController.navigate("order_summary/$encodedJson")
-}
 
 // Receiving screen
 composable(
