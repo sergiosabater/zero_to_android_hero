@@ -3,36 +3,7 @@
 
 
 
-navController.navigate("settings")
-// Stack: Home → Profile → Settings
 
-navController.popBackStack()
-// Stack: Home → Profile ← Back to this
-
-// ══════════════════════════════════════════════
-// Navigate and clear back stack
-// ══════════════════════════════════════════════
-navController.navigate("home") {
-    popUpTo("home") { inclusive = true }
-}
-// Stack: Home (everything else removed)
-// Useful for: Login → Home (can't go back to login)
-
-// ══════════════════════════════════════════════
-// Navigate and remove previous screen
-// ══════════════════════════════════════════════
-navController.navigate("confirmation") {
-    popUpTo("cart") { inclusive = true }
-}
-// Cart → Checkout → Confirmation
-//                   ← Back goes to Cart, skips Checkout
-// Useful for: Payment confirmation (can't go back to payment)
-
-// ══════════════════════════════════════════════
-// Single top (don't duplicate if already there)
-// ══════════════════════════════════════════════
-navController.navigate("home") {
-    launchSingleTop = true
 }
 // If already on Home, don't add another Home to stack
 
