@@ -1,8 +1,5 @@
 
-<br>
 
-<details>
-<summary><b>🔙 Controlling Navigation History</b></summary>
 
 <br>
 
