@@ -1,14 +1,7 @@
 
 
 
-<br>
 
-```kotlin
-// ══════════════════════════════════════════════
-// Navigate normally (adds to back stack)
-// ══════════════════════════════════════════════
-navController.navigate("profile")
-// Stack: Home → Profile
 
 navController.navigate("settings")
 // Stack: Home → Profile → Settings
