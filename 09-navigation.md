@@ -4,29 +4,7 @@
 
 
 
-}
-// If already on Home, don't add another Home to stack
 
-// ══════════════════════════════════════════════
-// Check if you can go back
-// ══════════════════════════════════════════════
-if (navController.previousBackStackEntry != null) {
-    navController.popBackStack()
-} else {
-    // Already at root, maybe exit app
-}
-
-// ══════════════════════════════════════════════
-// Handle system back button
-// ══════════════════════════════════════════════
-BackHandler {
-    if (navController.previousBackStackEntry != null) {
-        navController.popBackStack()
-    } else {
-        // Exit app or show confirmation
-    }
-}
-```
 
 **Common patterns:**
 
