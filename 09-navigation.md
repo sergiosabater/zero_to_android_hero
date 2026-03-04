@@ -6,26 +6,6 @@
 
 
 
-**Common patterns:**
-
-| Scenario | Code |
-|:---|:---|
-| **Normal navigation** | `navigate("screen")` |
-| **Go back** | `popBackStack()` |
-| **Login → Home (clear history)** | `navigate("home") { popUpTo(0) }` |
-| **Payment done (can't go back)** | `navigate("success") { popUpTo("cart") { inclusive = true } }` |
-| **Tab bar navigation** | `navigate("tab") { launchSingleTop = true }` |
-
-</details>
-
----
-
-<br>
-
-## 🧁 Part 4 · Project — Cupcake Order App
-
-<div align="center">
-
 ### *Multi-Screen Ordering Flow*
 
 Let's build a complete **Cupcake Order App** with navigation!
