@@ -6,35 +6,7 @@
 
 
 
-### *Multi-Screen Ordering Flow*
 
-Let's build a complete **Cupcake Order App** with navigation!
-
-</div>
-
-<br>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-🧁  
-**Start**
-
-Choose quantity
-
-</td>
-<td align="center" width="25%">
-
-🎨  
-**Flavor**
-
-Select flavor
-
-</td>
-<td align="center" width="25%">
-
-📅  
 **Pickup**
 
 Choose date
