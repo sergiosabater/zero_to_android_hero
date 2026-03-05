@@ -8,38 +8,6 @@
 
 
 
-```
-┌──────────────┐
-│  Start       │  Choose: 1, 6, or 12 cupcakes
-│  🧁          │
-└──────┬───────┘
-       │
-       ↓
-┌──────────────┐
-│  Flavor      │  Choose: Vanilla, Chocolate, etc.
-│  🎨          │
-└──────┬───────┘
-       │
-       ↓
-┌──────────────┐
-│  Pickup Date │  Select pickup day
-│  📅          │
-└──────┬───────┘
-       │
-       ↓
-┌──────────────┐
-│  Summary     │  Review order & confirm
-│  📝 ✅       │
-└──────────────┘
-```
-
----
-
-<br>
-
-<details>
-<summary><b>🧁 Complete Cupcake Order App Code</b></summary>
-
 <br>
 
 **Create new project:**
