@@ -8,40 +8,6 @@
 
 
 
-<br>
-
-**Create new project:**
-- Name: `CupcakeApp`
-- Package: `com.yourname.cupcake`
-- Language: Kotlin · Minimum SDK: API 24
-
-**Add Navigation dependency in `build.gradle.kts`:**
-```kotlin
-implementation("androidx.navigation:navigation-compose:2.7.7")
-```
-
-<br>
-
-**Step 1: Create data model**
-
-Create file: `OrderUiState.kt`
-
-```kotlin
-package com.yourname.cupcake
-
-data class OrderUiState(
-    val quantity: Int = 0,
-    val flavor: String = "",
-    val date: String = "",
-    val price: String = "$0.00"
-)
-```
-
-**Step 2: Create ViewModel**
-
-Create file: `OrderViewModel.kt`
-
-```kotlin
 package com.yourname.cupcake
 
 import androidx.lifecycle.ViewModel
