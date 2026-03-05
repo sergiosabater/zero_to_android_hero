@@ -7,29 +7,6 @@
 
 
 
-**Pickup**
-
-Choose date
-
-</td>
-<td align="center" width="25%">
-
-📝  
-**Summary**
-
-Review & order
-
-</td>
-</tr>
-</table>
-
----
-
-<br>
-
-### 🎯 App Flow
-
-<br>
 
 ```
 ┌──────────────┐
