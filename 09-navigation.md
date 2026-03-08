@@ -9,30 +9,7 @@
 
 
 
-    fun setQuantity(numberCupcakes: Int) {
-        _uiState.update { currentState ->
-            currentState.copy(
-                quantity = numberCupcakes,
-                price = calculatePrice(quantity = numberCupcakes)
-            )
-        }
-    }
-    
-    fun setFlavor(desiredFlavor: String) {
-        _uiState.update { currentState ->
-            currentState.copy(flavor = desiredFlavor)
-        }
-    }
-    
-    fun setDate(pickupDate: String) {
-        _uiState.update { currentState ->
-            currentState.copy(date = pickupDate)
-        }
-    }
-    
-    fun resetOrder() {
-        _uiState.value = OrderUiState()
-    }
+    f
     
     private fun calculatePrice(quantity: Int = _uiState.value.quantity): String {
         val calculatedPrice = quantity * PRICE_PER_CUPCAKE
