@@ -8,23 +8,7 @@
 
 
 
-package com.yourname.cupcake
 
-import androidx.lifecycle.ViewModel
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
-import java.text.NumberFormat
-import java.text.SimpleDateFormat
-import java.util.*
-
-private const val PRICE_PER_CUPCAKE = 2.00
-
-class OrderViewModel : ViewModel() {
-    private val _uiState = MutableStateFlow(OrderUiState())
-    val uiState: StateFlow<OrderUiState> = _uiState.asStateFlow()
-    
     fun setQuantity(numberCupcakes: Int) {
         _uiState.update { currentState ->
             currentState.copy(
