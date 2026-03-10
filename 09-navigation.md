@@ -9,12 +9,6 @@
 
 
 
-    f
-    
-    private fun calculatePrice(quantity: Int = _uiState.value.quantity): String {
-        val calculatedPrice = quantity * PRICE_PER_CUPCAKE
-        return NumberFormat.getCurrencyInstance().format(calculatedPrice)
-    }
     
     fun dateOptions(): List<String> {
         val dateOptions = mutableListOf<String>()
