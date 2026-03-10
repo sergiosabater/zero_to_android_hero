@@ -11,22 +11,7 @@
 
     
     f
-```
 
-**Step 3: Create Navigation**
-
-Create file: `CupcakeScreen.kt`
-
-```kotlin
-package com.yourname.cupcake
-
-enum class CupcakeScreen {
-    Start,
-    Flavor,
-    Pickup,
-    Summary
-}
-```
 
 **Step 4: MainActivity.kt**
 
