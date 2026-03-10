@@ -10,20 +10,7 @@
 
 
     
-    fun dateOptions(): List<String> {
-        val dateOptions = mutableListOf<String>()
-        val formatter = SimpleDateFormat("E MMM d", Locale.getDefault())
-        val calendar = Calendar.getInstance()
-        
-        // Add today + next 3 days
-        repeat(4) {
-            dateOptions.add(formatter.format(calendar.time))
-            calendar.add(Calendar.DATE, 1)
-        }
-        
-        return dateOptions
-    }
-}
+    f
 ```
 
 **Step 3: Create Navigation**
