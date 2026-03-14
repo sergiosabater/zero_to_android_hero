@@ -15,17 +15,6 @@
     
         
             
-            composable(route = CupcakeScreen.Flavor.name) {
-                SelectOptionScreen(
-                    subtotal = uiState.price,
-                    options = listOf("Vanilla", "Chocolate", "Red Velvet", "Salted Caramel", "Coffee"),
-                    onSelectionChanged = { viewModel.setFlavor(it) },
-                    onNextButtonClicked = { navController.navigate(CupcakeScreen.Pickup.name) },
-                    onCancelButtonClicked = {
-                        cancelOrderAndNavigateToStart(viewModel, navController)
-                    }
-                )
-            }
             
             composable(route = CupcakeScreen.Pickup.name) {
                 SelectOptionScreen(
