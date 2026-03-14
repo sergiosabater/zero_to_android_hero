@@ -13,26 +13,7 @@
 
 
     
-        val uiState by viewModel.uiState.collectAsState()
         
-        NavHost(
-            navController = navController,
-            startDestination = CupcakeScreen.Start.name,
-            modifier = Modifier.padding(innerPadding)
-        ) {
-            composable(route = CupcakeScreen.Start.name) {
-                StartOrderScreen(
-                    quantityOptions = listOf(
-                        Pair(R.string.one_cupcake, 1),
-                        Pair(R.string.six_cupcakes, 6),
-                        Pair(R.string.twelve_cupcakes, 12)
-                    ),
-                    onNextButtonClicked = { quantity ->
-                        viewModel.setQuantity(quantity)
-                        navController.navigate(CupcakeScreen.Flavor.name)
-                    }
-                )
-            }
             
             composable(route = CupcakeScreen.Flavor.name) {
                 SelectOptionScreen(
