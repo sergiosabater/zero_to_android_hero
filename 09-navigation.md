@@ -12,15 +12,7 @@
 
 
 
-    Scaffold(
-        topBar = {
-            CupcakeAppBar(
-                currentScreen = currentScreen,
-                canNavigateBack = navController.previousBackStackEntry != null,
-                navigateUp = { navController.navigateUp() }
-            )
-        }
-    ) { innerPadding ->
+    
         val uiState by viewModel.uiState.collectAsState()
         
         NavHost(
