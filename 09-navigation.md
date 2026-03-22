@@ -17,22 +17,7 @@
             
             
             
-            
-            composable(route = CupcakeScreen.Summary.name) {
-                OrderSummaryScreen(
-                    orderUiState = uiState,
-                    onCancelButtonClicked = {
-                        cancelOrderAndNavigateToStart(viewModel, navController)
-                    },
-                    onSendButtonClicked = { subject, summary ->
-                        // In real app: share intent or API call
-                        cancelOrderAndNavigateToStart(viewModel, navController)
-                    }
-                )
             }
-        }
-    }
-}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
