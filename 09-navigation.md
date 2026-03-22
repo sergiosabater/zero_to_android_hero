@@ -16,17 +16,7 @@
         
             
             
-            composable(route = CupcakeScreen.Pickup.name) {
-                SelectOptionScreen(
-                    subtotal = uiState.price,
-                    options = viewModel.dateOptions(),
-                    onSelectionChanged = { viewModel.setDate(it) },
-                    onNextButtonClicked = { navController.navigate(CupcakeScreen.Summary.name) },
-                    onCancelButtonClicked = {
-                        cancelOrderAndNavigateToStart(viewModel, navController)
-                    }
-                )
-            }
+            
             
             composable(route = CupcakeScreen.Summary.name) {
                 OrderSummaryScreen(
