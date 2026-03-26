@@ -19,14 +19,7 @@
             
             }
 
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun CupcakeAppBar(
-    currentScreen: CupcakeScreen,
-    canNavigateBack: Boolean,
-    navigateUp: () -> Unit,
-    modifier: Modifier = Modifier
-) {
+
     TopAppBar(
         title = { Text("Cupcake") },
         colors = TopAppBarDefaults.mediumTopAppBarColors(
