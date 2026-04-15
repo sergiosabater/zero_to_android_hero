@@ -20,10 +20,7 @@
             }
 
 
-    TopAppBar(
-        title = { Text("Cupcake") },
-        colors = TopAppBarDefaults.mediumTopAppBarColors(
-            containerColor = MaterialTheme.colorScheme.primaryContainer
+    
         ),
         modifier = modifier,
         navigationIcon = {
