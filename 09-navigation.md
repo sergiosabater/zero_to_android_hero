@@ -1,33 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-            
-            
-            
-       
-                    Icon(
-                        imageVector = Icons.Filled.ArrowBack,
-                        contentDescription = "Back"
-                    )
-                }
-            }
-        }
-    )
-}
-
 private fun cancelOrderAndNavigateToStart(
     viewModel: OrderViewModel,
     navController: NavHostController
