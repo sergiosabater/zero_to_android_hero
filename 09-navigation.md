@@ -1,23 +1,5 @@
 
 
-private fun cancelOrderAndNavigateToStart(
-    viewModel: OrderViewModel,
-    navController: NavHostController
-) {
-    viewModel.resetOrder()
-    navController.popBackStack(CupcakeScreen.Start.name, inclusive = false)
-}
-
-// ══════════════════════════════════════════════════════════
-// SCREEN 1: START ORDER
-// ══════════════════════════════════════════════════════════
-@Composable
-fun StartOrderScreen(
-    quantityOptions: List<Pair<Int, Int>>,
-    onNextButtonClicked: (Int) -> Unit,
-    modifier: Modifier = Modifier
-) {
-    Column(
         modifier = modifier
             .fillMaxSize()
             .padding(16.dp),
