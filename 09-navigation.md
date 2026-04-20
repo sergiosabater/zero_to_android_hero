@@ -1,31 +1,6 @@
 
 
-        modifier = modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        Spacer(modifier = Modifier.height(16.dp))
-        
-        Text(
-            text = "Order Cupcakes",
-            style = MaterialTheme.typography.headlineMedium
-        )
-        
-        Spacer(modifier = Modifier.height(8.dp))
-        
-        quantityOptions.forEach { (stringResourceId, quantity) ->
-            Button(
-                onClick = { onNextButtonClicked(quantity) },
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(getQuantityString(quantity))
-            }
-        }
-    }
-}
-
-fun getQuantityString(quantity: Int): String = when (quantity) {
+       String(quantity: Int): String = when (quantity) {
     1 -> "One Cupcake"
     6 -> "Six Cupcakes"
     12 -> "Twelve Cupcakes"
