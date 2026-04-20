@@ -1,24 +1,5 @@
 
 
-       String(quantity: Int): String = when (quantity) {
-    1 -> "One Cupcake"
-    6 -> "Six Cupcakes"
-    12 -> "Twelve Cupcakes"
-    else -> "$quantity Cupcakes"
-}
-
-// ══════════════════════════════════════════════════════════
-// SCREEN 2 & 3: SELECT OPTION (used for Flavor and Pickup)
-// ══════════════════════════════════════════════════════════
-@Composable
-fun SelectOptionScreen(
-    subtotal: String,
-    options: List<String>,
-    onSelectionChanged: (String) -> Unit,
-    onCancelButtonClicked: () -> Unit,
-    onNextButtonClicked: () -> Unit,
-    modifier: Modifier = Modifier
-) {
     var selectedValue by remember { mutableStateOf("") }
     
     Column(
