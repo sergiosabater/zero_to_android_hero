@@ -1,20 +1,7 @@
 
 
     
-                    .padding(vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                RadioButton(
-                    selected = selectedValue == item,
-                    onClick = {
-                        selectedValue = item
-                        onSelectionChanged(item)
-                    }
-                )
-                Text(item, modifier = Modifier.padding(start = 8.dp))
-            }
-        }
-        
+           
         Divider(
             thickness = 1.dp,
             modifier = Modifier.padding(vertical = 16.dp)
