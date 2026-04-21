@@ -1,22 +1,7 @@
 
 
     
-           
-        Divider(
-            thickness = 1.dp,
-            modifier = Modifier.padding(vertical = 16.dp)
-        )
         
-        Text(
-            text = "Subtotal: $subtotal",
-            style = MaterialTheme.typography.headlineSmall,
-            fontWeight = FontWeight.Bold
-        )
-        
-        Spacer(modifier = Modifier.weight(1f))
-        
-        Row(
-            modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             OutlinedButton(
