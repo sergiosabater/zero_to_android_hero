@@ -2,24 +2,6 @@
 
     
         
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            OutlinedButton(
-                onClick = onCancelButtonClicked,
-                modifier = Modifier.weight(1f)
-            ) {
-                Text("Cancel")
-            }
-            
-            Button(
-                onClick = onNextButtonClicked,
-                enabled = selectedValue.isNotEmpty(),
-                modifier = Modifier.weight(1f)
-            ) {
-                Text("Next")
-            }
-        }
-    }
 }
 
 // ══════════════════════════════════════════════════════════
