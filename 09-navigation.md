@@ -1,19 +1,5 @@
 
 
-    
-        
-}
-
-// ══════════════════════════════════════════════════════════
-// SCREEN 4: ORDER SUMMARY
-// ══════════════════════════════════════════════════════════
-@Composable
-fun OrderSummaryScreen(
-    orderUiState: OrderUiState,
-    onCancelButtonClicked: () -> Unit,
-    onSendButtonClicked: (String, String) -> Unit,
-    modifier: Modifier = Modifier
-) {
     Column(
         modifier = modifier
             .fillMaxSize()
