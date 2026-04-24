@@ -5,20 +5,7 @@
         
         
         
-}
-```
 
-**Step 5: Add string resources**
-
-In `res/values/strings.xml`:
-```xml
-<resources>
-    <string name="app_name">Cupcake</string>
-    <string name="one_cupcake">One Cupcake</string>
-    <string name="six_cupcakes">Six Cupcakes</string>
-    <string name="twelve_cupcakes">Twelve Cupcakes</string>
-</resources>
-```
 
 </details>
 
