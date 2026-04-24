@@ -2,21 +2,7 @@
 
     
         
-        Card(modifier = Modifier.fillMaxWidth()) {
-            Column(modifier = Modifier.padding(16.dp)) {
-                Text("Quantity: ${orderUiState.quantity} cupcakes")
-                Text("Flavor: ${orderUiState.flavor}")
-                Text("Pickup date: ${orderUiState.date}")
-                
-                Divider(modifier = Modifier.padding(vertical = 8.dp))
-                
-                Text(
-                    text = "Total: ${orderUiState.price}",
-                    style = MaterialTheme.typography.titleLarge,
-                    fontWeight = FontWeight.Bold
-                )
-            }
-        }
+        
         
         Spacer(modifier = Modifier.weight(1f))
         
