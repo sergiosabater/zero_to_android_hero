@@ -4,32 +4,7 @@
         
         
         
-        Spacer(modifier = Modifier.weight(1f))
         
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            OutlinedButton(
-                onClick = onCancelButtonClicked,
-                modifier = Modifier.weight(1f)
-            ) {
-                Text("Cancel")
-            }
-            
-            Button(
-                onClick = {
-                    onSendButtonClicked(
-                        "New Cupcake Order",
-                        "Order details:\nQuantity: ${orderUiState.quantity}\nFlavor: ${orderUiState.flavor}\nDate: ${orderUiState.date}\nTotal: ${orderUiState.price}"
-                    )
-                },
-                modifier = Modifier.weight(1f)
-            ) {
-                Text("Send Order")
-            }
-        }
-    }
 }
 ```
 
