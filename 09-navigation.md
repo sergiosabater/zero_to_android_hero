@@ -8,28 +8,6 @@
 
 
 
-```
-
-**2. Navigation Flow:**
-```kotlin
-Start → (select quantity) → Flavor → Pickup → Summary
-                ↓           ↓         ↓          ↓
-             Cancel      Cancel   Cancel   Send/Cancel
-                ↓           ↓         ↓          ↓
-              Start       Start    Start     Start
-```
-
-**3. TopAppBar with Back:**
-```kotlin
-navigationIcon = {
-    if (canNavigateBack) {
-        IconButton(onClick = navigateUp) {
-            Icon(Icons.Filled.ArrowBack, "Back")
-        }
-    }
-}
-```
-
 **4. Reusable SelectOptionScreen:**
 ```kotlin
 // Same screen used for both Flavor and Pickup
