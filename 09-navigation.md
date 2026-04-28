@@ -7,28 +7,7 @@
         
 
 
-</details>
 
----
-
-<br>
-
-### 🎨 Features Breakdown
-
-<br>
-
-<details>
-<summary><b>✨ What Makes This App Great</b></summary>
-
-<br>
-
-**1. ViewModel for Shared State:**
-```kotlin
-class OrderViewModel : ViewModel() {
-    private val _uiState = MutableStateFlow(OrderUiState())
-    val uiState: StateFlow<OrderUiState> = _uiState.asStateFlow()
-    // State survives navigation and configuration changes
-}
 ```
 
 **2. Navigation Flow:**
