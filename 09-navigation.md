@@ -8,20 +8,6 @@
 
 
 
-
-<br>
-
-### Core Tasks:
-
-- [ ] 🗺️ **Create NavHost** — 2-screen navigation
-- [ ] 📦 **Pass data** — Navigate with arguments
-- [ ] ⬅️ **Handle back** — popBackStack properly
-- [ ] 🧁 **Build Cupcake App** — Complete 4-screen flow
-- [ ] 🎨 **Add TopAppBar** — With back button
-- [ ] ✅ **Test flow** — Complete an order end-to-end
-
-<br>
-
 <details>
 <summary><b>⭐ Bonus Challenges</b></summary>
 
