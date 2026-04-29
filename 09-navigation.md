@@ -8,33 +8,6 @@
 
 
 
-**4. Reusable SelectOptionScreen:**
-```kotlin
-// Same screen used for both Flavor and Pickup
-// Just pass different options!
-```
-
-**5. Price Calculation:**
-```kotlin
-private const val PRICE_PER_CUPCAKE = 2.00
-private fun calculatePrice(quantity: Int): String {
-    return NumberFormat.getCurrencyInstance().format(quantity * PRICE_PER_CUPCAKE)
-}
-```
-
-</details>
-
----
-
-<br>
-
-## 🎯 Mission · Chapter 09
-
-<div align="center">
-
-### 💻 Master Navigation!
-
-</div>
 
 <br>
 
