@@ -8,21 +8,6 @@
 
 
 
-<details>
-<summary><b>⭐ Bonus Challenges</b></summary>
-
-<br>
-
-- [ ] 🎨 Add **order customization** (toppings, size)
-- [ ] 💾 **Save draft** orders (persist to DataStore)
-- [ ] 📧 Implement **real share** intent for order
-- [ ] 🛒 Add **order history** screen
-- [ ] 🎯 Add **favorites** (save common orders)
-- [ ] 🌈 Add **themed cupcakes** (birthday, wedding, etc.)
-- [ ] 📊 Add **analytics** (track which flavors are popular)
-
-</details>
-
 ---
 
 <br>
