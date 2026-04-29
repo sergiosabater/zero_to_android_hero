@@ -10,26 +10,7 @@
 
 ---
 
-<br>
 
-<div align="center">
-
-## 🏆 Achievement Unlocked
-
-### **The Navigator** 🧭
-
-<br>
-
-**You now understand:**
-
-- Navigation Component in Jetpack Compose
-- NavController and NavHost
-- Passing data between screens
-- Back stack management
-- Multi-screen app architecture
-- ViewModel for shared state
-- TopAppBar with navigation
-- Complete user flows
 
 <br>
 
