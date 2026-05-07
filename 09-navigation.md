@@ -1,30 +1,5 @@
 
 
-    
-        
-        
-        
-        
-
-
-
----
-
-
-
-<br>
-
-*You built a Cupcake Order App*  
-*with 4 screens, data passing,*  
-*proper navigation, and order state management.*  
-**That's a real-world app architecture.**
-
-<br>
-
-![Achievement](https://img.shields.io/badge/🏆-Achievement_Unlocked-gold?style=for-the-badge)
-
-</div>
-
 ---
 
 <br>
