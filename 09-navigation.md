@@ -1,21 +1,5 @@
 
 
----
-
-<br>
-
-<div align="center">
-
-### 🎓 Remember This
-
-> *"Navigation isn't just moving between screens.*  
-> *It's about creating a coherent user journey.*  
-> *Every tap, every back button, every confirmation*  
-> *should feel natural and intuitive.*  
-> *Master navigation, and your apps*  
-> *will feel professional and polished."*
-
-</div>
 
 ---
 
