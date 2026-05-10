@@ -1,19 +1,6 @@
 
 
 
----
-
-<br>
-
-<div align="center">
-
-### 🔜 What's Next?
-
-In **Chapter 10**, we explore **Data Persistence** —  
-saving data locally with Room Database.  
-You'll build a **Task Manager App** that remembers everything!
-
-</div>
 
 <br>
 
